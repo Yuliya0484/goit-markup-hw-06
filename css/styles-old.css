@@ -118,57 +118,23 @@
 
 /* ----BENEFITS SECTION TWO---- */
 
-.benefits-list {
-  display: flex;
-  gap: 24px;
-  margin: 0 auto;
-}
-
-.benefits-items {
-  width: calc((100% - 72px) / 4);
-}
-
-.conteiner-benefits-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  background: #f4f4fd;
-  margin-bottom: 8px;
-}
-
-.benefits-heading {
-  text-align: left;
-  margin-bottom: 8px;
-}
-
-.benefits-text {
-  text-align: left;
-}
 /* ----TEAM SECTION THREE----*/
-.team-section {
-  background: #f4f4fd;
+/* .team-section {
   padding: 120px 0;
 }
 
 .team-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
-  margin-bottom: 72px;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-}
+} */
 
 .team-items {
   background-color: #ffffff;
