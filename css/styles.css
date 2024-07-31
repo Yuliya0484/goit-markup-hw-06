@@ -103,7 +103,7 @@ img {
 
 .menu-container {
   width: 320px;
-  min-height: 640px;
+  height: 100%;
   position: absolute;
   background-color: #ffffff;
   top: 50%;
@@ -235,14 +235,14 @@ img {
 
 .header-burger-button {
   display: block;
-  margin-left: auto;
   border: none;
   width: 24px;
   height: 24px;
-  text-align: center;
   background: transparent;
-  justify-content: center;
-  align-items: center;
+  padding: 0;
+}
+.icon-burger {
+  fill: #2f2f37;
 }
 
 .nav-list,
