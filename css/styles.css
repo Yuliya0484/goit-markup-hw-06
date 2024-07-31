@@ -24,7 +24,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: currentColor;
 }
 
 button {
@@ -213,22 +212,21 @@ img {
 }
 
 /* ----HEADER SETS---- */
-
-.header-container {
-  max-width: 320px;
+.main-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
+}
+
+.header-container {
+  max-width: 320px;
   padding: 16px;
 }
 
 .header-nav {
   display: flex;
   justify-content: space-between;
-}
-.header-logo {
-  padding: 24px 0;
 }
 
 .header-logo-part {
@@ -237,11 +235,14 @@ img {
 
 .header-burger-button {
   display: block;
-  /* margin: 0 auto; */
+  margin-left: auto;
   border: none;
   width: 24px;
   height: 24px;
   text-align: center;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-list,
@@ -268,6 +269,7 @@ img {
 
   .header-logo {
     margin-right: 120px;
+    padding: 24px 0;
   }
 
   .nav-list {
@@ -280,8 +282,6 @@ img {
     display: flex;
     padding: 24px 0;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
     color: #2e2f42;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -309,6 +309,7 @@ img {
 
   .contacts {
     display: flex;
+    font-style: normal;
     margin-left: auto;
   }
 
@@ -336,8 +337,6 @@ img {
 @media screen and (min-width: 1158px) {
   .header-container {
     min-width: 1158px;
-    display: flex;
-    margin: 0 auto;
   }
 
   .header-nav {
@@ -350,34 +349,10 @@ img {
     padding: 24px 0;
   }
 
-  .header-logo-part {
-    color: #2e2f42;
-  }
-
   .nav-list {
     display: flex;
     gap: 40px;
     padding: 24 0;
-  }
-
-  .nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding: 24px 0;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .nav-link:hover,
-  .nav-link:focus {
-    color: #404bbf;
-  }
-
-  .studio-link {
-    color: #404bbf;
-    position: relative;
   }
 
   .studio-link::after {
@@ -392,7 +367,6 @@ img {
   }
 
   .contacts {
-    font-style: normal;
     margin-left: auto;
     padding: 24px 0;
   }
@@ -409,12 +383,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .contacts-link:hover,
-  .contacts-link:focus {
-    color: #404bbf;
   }
 }
 
